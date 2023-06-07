@@ -60,7 +60,7 @@ def read_text_file(file_path):
 
 
 def main():
-    file_path = 'sample.txt'
+    file_path = 'sample.txt'  # Replace with your text file path
 
     text = read_text_file(file_path)
     sentences = nltk.sent_tokenize(text)
@@ -87,6 +87,8 @@ if __name__ == '__main__':
 ```
 
 ## Output:
+
+![image](https://github.com/priya672003/Experiment-6---Implementation-of-Semantic-Analysis/assets/81132849/2da4409d-0097-4d0c-9d35-2b97d6888094)
 
 
 ## Result
